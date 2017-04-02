@@ -272,6 +272,70 @@ h2 {
   background-color: #d2322d;
 }
 
+/* About Page */
+
+#about h1 {
+  color: #e74c3c;
+  font-family: 'Open Sans';
+  font-weight: 300;
+}
+
+#about img {
+  height: 200px;
+  border-radius: 120px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+#first-paragraph {
+  clear: left;
+  padding-top: 20px;
+}
+
+/* Portfolio Page */
+
+.example {
+  background-color: #eee;
+  float: left;
+  width: 33.33333%;
+  border: 1px solid;
+  height: 300px;
+}
+
+.row-example:after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+
+.example-2 {
+  width: 33.3333%;
+  float: left;
+}
+
+.inner-example {
+  background-color: #eee;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px #999;
+  -moz-box-shadow: 0 1px 1px #999;
+  -webkit-box-shadow: 0 1px 1px #999;
+}
+
+.inner-example img {
+  max-width: 98%;
+  margin: 1%;
+}
+
+.inner-example h3 {
+  margin: 5px;
+  font-size: 20px;
+  border-bottom: 1px solid black;
+}
+
+.inner-example p {
+  padding: 5px;
+}
 
 /*
  * Footer
@@ -283,7 +347,9 @@ h2 {
   text-align: center;
   background-color: #f9f9f9;
   border-top: 1px solid #e5e5e5;
+  margin-top: 40px;
 }
+
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
@@ -294,6 +360,10 @@ h2 {
   text-align: center;
 }
 
+.clear {
+  clear: both;
+}
+
 /* Responsive Styling */
 
 @media (max-width: 991px) { 
@@ -301,3 +371,8 @@ h2 {
     text-align: center;
   }
 }
+
+@media (max-width: 767px) { 
+  .xs-center, #about h1 {
+    text-align: center;
+  }
