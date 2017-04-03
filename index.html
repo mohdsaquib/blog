@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -39,8 +38,8 @@
 
   <body>
 
-  <!-- Static navbar -->
-    <nav class="navbar navbar-default navbar-static-top">
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default navbar-static-top home-nav">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -49,12 +48,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Mohd<strong>Saquib</strong></a>
+          <a class="navbar-brand" href="index.html">Mohd<strong>Saquib</strong></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Home</a></li>
-            <li class="active"><a href="index.html">Blog<span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog<span class="sr-only">(current)</span></a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
           </ul>
@@ -62,119 +61,45 @@
       </div>
     </nav>
 
-    <div id="blog-page">
+    <div id="home-top" class="blog-main">
       <div class="container">
 
-        <div class="row">
-
-          <div class="col-sm-8 blog-main">
-
-            <div class="blog-post">
-              <h2 class="blog-post-title"><a href="posts/first-post.html">Sample blog post</a></h2>
-              <p class="blog-post-meta"><a type="button" class="btn btn-danger" href="blog-post-link">55 comments</a>January 1, 2014 by <a href="#">Mark</a></p>
-
-              <img src="images/udemy-banner.jpg"></img>
-
-              <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
-              <hr>
-              <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-              <blockquote>
-                <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              </blockquote>
-              <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-              <h2>Heading</h2>
-              <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-              <h3>Sub-heading</h3>
-              <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-              <pre><code>Example code block</code></pre>
-              <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-              <h3>Sub-heading</h3>
-              <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-              <ul>
-                <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-                <li>Donec id elit non mi porta gravida at eget metus.</li>
-                <li>Nulla vitae elit libero, a pharetra augue.</li>
-              </ul>
-              <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-              <ol>
-                <li>Vestibulum id ligula porta felis euismod semper.</li>
-                <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
-                <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
-              </ol>
-              <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis... <a href="blog-post-link">Read More</a></p>
-            </div><!-- /.blog-post -->
-
-            <div class="blog-post">
-              <h2 class="blog-post-title">Another blog post</h2>
-              <p class="blog-post-meta">December 23, 2013 by <a href="#">Jacob</a></p>
-
-              <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-              <blockquote>
-                <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              </blockquote>
-              <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-              <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-            </div><!-- /.blog-post -->
-
-            <div class="blog-post">
-              <h2 class="blog-post-title">New feature</h2>
-              <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p>
-
-              <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-              <ul>
-                <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-                <li>Donec id elit non mi porta gravida at eget metus.</li>
-                <li>Nulla vitae elit libero, a pharetra augue.</li>
-              </ul>
-              <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-              <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-            </div><!-- /.blog-post -->
-
-            <nav>
-              <ul class="pager">
-                <li><a href="#">Previous</a></li>
-                <li><a href="#">Next</a></li>
-              </ul>
-            </nav>
-
-          </div><!-- /.blog-main -->
-
-          <div class="col-sm-4 blog-sidebar">
-            <div id="subscribe-box" class="sidebar-module sidebar-module-inset">
-              <h4>Like what you're reading? Go VIP.</h4>
-              <p>Join today to receive instant updates, free learning resources, and a bunch of other awesome stuff. Oh by the way, I hate spam so don't worry about receiving any of that from me.</p>
-              <form role="form" action="//github.us15.list-manage.com/subscribe/post?u=267b4c7a15c4fa1ab87efe64e&amp;id=ac287d6de6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <div class="form-group">
-                  <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Enter Email">
+          <div class="row">
+            <div class="col-sm-3 xs-center">
+              <img src="images/saquib.jpg" alt="Saquib">
+            </div>  
+            <div class="col-sm-9">
+              <h1>I send out cool and awesome stuff that you never gonna find anywhere else. So why wait, enter your email below and join now :)</h1>
+              <div class="row">
+                <form role="form" action="//github.us15.list-manage.com/subscribe/post?u=267b4c7a15c4fa1ab87efe64e&amp;id=ac287d6de6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div class="col-sm-9">
+                  <div class="form-group">
+                    <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="Enter Email">
+                  </div>
                 </div>
-                <div id="mce-responses" class="clear">
-                  <div class="response" id="mce-error-response" style="display:none"></div>
-                  <div class="response" id="mce-success-response" style="display:none"></div>
-                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_267b4c7a15c4fa1ab87efe64e_ac287d6de6" tabindex="-1" value=""></div>
-                <p class="center"><input type="submit" value="Join for Free" name="subscribe" class="btn btn-warning"></p>
+                <div class="col-sm-3">  
+                  <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                  </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_267b4c7a15c4fa1ab87efe64e_ac287d6de6" tabindex="-1" value=""></div>
+                  <p class="center"><input type="submit" value="Join The Fun" name="subscribe" class="btn btn-warning"></p>
+                </div>
               </form>
             </div>
-            <div id="posts-box" class="sidebar-module">
-              <h4>Most Popular Posts</h4>
-              <ol>
-                <li><a href="#">This is the most popular post</a></li>
-                <li><a href="#">This is the second most popular post</a></li>
-                <li><a href="#">This posts was many people's favorites</a></li>
-                <li><a href="#">This is just a longer title to make sure it goes to second line</a></li>
-              </ol>
             </div>
-          </div><!-- /.blog-sidebar -->
-
-        </div><!-- /.row -->
-
+          </div>
       </div><!-- /.container -->
-    </div><!-- /.blog-page -->
+    </div>
+
+    <div class="container blog-main">
+      <p id="first-paragraph-home">I am a Science Student at <a href="http://jmicoe.in/" target="_blank">Jamia Millia Islamia</a>, New Delhi. Head over to my <a href="blog.html">blog</a> to read some ineteresting content.</p>
+    </div>
 
     <footer class="blog-footer">
       <p>© 2017 Mohd Saquib. Have any questions or just want to drop me a line? Email me at <a href="mailto:msaquibmax@gmail.com" target="_blank">msaquibmax@gmail.com</a></p>
       <p>
-        <a href="#blog-page">Back to top</a>
+        <a href="#">Back to top</a>
       </p>
     </footer>
 
